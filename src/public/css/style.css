@@ -1,0 +1,39 @@
+@media only screen and (max-device-width : 850px) {
+    .video {
+        object-fit: fill;    
+    }
+}
+
+  @media only screen and (min-device-width : 850px) {
+    .video {
+      position: relative;
+      display: block;
+      padding-left: 21%;
+      padding-top: 7%;
+      width: 59%;
+      height: 73%;
+    }
+  }
+  #adVideo {
+    width: 100%;
+    height: 100%;
+  }
+  #sec4Button {
+    display: none;
+  }
+  #sec21Button {
+    display: none;
+  }
+  
+  .video .buttons {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+  }
+
+  .buttons {
+    padding-left: 32%;
+    padding-bottom: 3%;
+  }

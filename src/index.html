@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+<body>
+    <div class="video">
+      <video width="400" id="adVideo" controls>
+        <source
+          src="https://static.ssacdn.com/creatives/irv-biliionare_casino-port-rgl_10038/irv-biliionare_casino-port-rgl/assets/billionaire_v2.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="buttons">
+        <button type="button" id="sec4Button" onclick="resumeAndHide()">Spin</button>
+        <button type="button" id="sec21Button" onclick="openStore()">Download now</button>
+      </div>
+    </div>
+  </body>
+</html>
+<script type="module">
+  import main from '/js/main.js'
+  main.bind(window);
+  const { resumeAndHide, openStore } = main();
+  window.resumeAndHide = resumeAndHide;
+  window.openStore = openStore; 
+</script>
