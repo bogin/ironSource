@@ -4,8 +4,9 @@
 git clone https://github.com/bogin/ironSource.git &&
 cd ironSource &&
 npm i &&
-npm run start &&
-start chrome http://localhost:3000/
+start chrome http://localhost:3000/ && 
+npm run start 
+
 ```
 I used boilerplate from google for running node with bable(es7) and express. 
 The assignment files are index.js, index.html, helper.js, main.js. 
