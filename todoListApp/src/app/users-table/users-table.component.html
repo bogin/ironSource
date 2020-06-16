@@ -1,0 +1,13 @@
+<h1> todo list per user </h1>
+
+<table>
+    <th *ngFor = "let column of headers">
+        user{{column}}
+    </th>
+<tr>    
+    <td *ngFor = "let column of headers">
+        <app-todo [todos]="groupedTodos[column]"></app-todo>
+    </td>
+</tr>
+
+</table>
